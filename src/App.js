@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/grid.css';
 import './css/style.css';
-import Photo from '../public/photo.jpg'
+import Photo from './photo.jpg'
 
 function App() {
   return (
