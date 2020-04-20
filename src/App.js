@@ -17,7 +17,7 @@ function App() {
         </ul>
       </div>
 
-      <h1>MY PROJECTS</h1>
+      <h1 className="row">MY PROJECTS</h1>
 
       <div className="row">
         <ul>
