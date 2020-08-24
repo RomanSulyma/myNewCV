@@ -9,7 +9,7 @@ function App() {
 
       <div className="row">
         <a href="https://www.linkedin.com/in/sulima-roman/" target="_blank" rel="noopener noreferrer">
-            <img src={Photo} alt={'No photo downloaded :('}/>
+            <img src={Photo} alt={'No photo downloaded :('} title="LinkedIn" />
         </a>
       </div>
 
