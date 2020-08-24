@@ -47,6 +47,11 @@ li a:hover {
     animation: shadow 1s infinite alternate;
 }
 
+.deployed:hover {
+    border: 2px solid #40ff18;
+    animation: shadow-deployed 1s infinite alternate;
+}
+
 img:hover {
     animation: shadow 1s infinite alternate;
 }
@@ -75,5 +80,14 @@ a [href='https://drive.google.com/open?id=1UkY8-lAojN7OtoffZKjOBIv8xmWiMGw5'] {
     }
     to {
         box-shadow: 0 0 9px 3px gold;
+    }
+}
+
+@keyframes shadow-deployed {
+    from {
+        box-shadow: 0 0 5px 2px #40ff18;
+    }
+    to {
+        box-shadow: 0 0 9px 3px #15f3ff;
     }
 }
